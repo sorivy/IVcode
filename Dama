@@ -1,0 +1,28 @@
+def calculate_average_temperature(room1_temperature, room2_temperature):
+    """
+    Calculate the average temperature between two rooms.
+
+    Parameters:
+    - room1_temperature: Temperature of the first room.
+    - room2_temperature: Temperature of the second room.
+
+    Returns:
+    - average_temperature: Average temperature between the two rooms.
+    """
+
+    # Calculate the average temperature
+    average_temperature = (room1_temperature + room2_temperature) / 2
+
+    return average_temperature
+
+# Example usage:
+if __name__ == "__main__":
+    # Example temperatures for two rooms (replace with actual temperatures)
+    room1_temperature = 22.5
+    room2_temperature = 18.3
+
+    # Calculate the average temperature
+    average_temperature = calculate_average_temperature(room1_temperature, room2_temperature)
+
+    # Print the result
+    print(f"Average Temperature: {average_temperature} degrees Celsius")
