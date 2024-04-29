@@ -1,4 +1,4 @@
-# Tempreture 57
+# Tempreture 58
 def calculate_average_temperature(room1_temperature, room2_temperature):
     """
     Calculate the average temperature between two rooms.
